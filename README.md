@@ -11,8 +11,7 @@
 ## Framework Implementations
 
 * [Felix](https://felix.apache.org) - OSGi Core 6 Compilant Implementation from Apache Community.
-* [Equinox](https://felix.apache.org) - OSGi Core 6 Reference Implementation from the Eclipse Community.
-
+* [Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
 
 ## Useful bundles/bundle providers
 
