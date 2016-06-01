@@ -10,7 +10,7 @@
 
 ## Framework Implementations
 
-* [Felix](https://felix.apache.org) - OSGi Core 6 Compilant Implementation from Apache Community.
+* [Felix](https://felix.apache.org) - OSGi Core 6 compliant Implementation from Apache Community.
 * [Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
 
 ## Useful bundles/bundle providers
@@ -23,7 +23,7 @@
 * [BNDTools](http://bndtools.org) - Lipstick for bnd in Eclipse (quote: Neil Bartlett)
 
 ## Testing
-* [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE Test Suite for integration testing.
+* [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE integration testing framework.
 
 ## Guides
 
@@ -34,7 +34,7 @@
 ## Build Tools
 * [BND](http://bnd.bndtools.org) - bnd is the engine behind a number of popular software development tools that support OSGi.
 * [Maven Bundle Plugin](http://felix.apache.org/documentation/subprojects/apache-felix-maven-bundle-plugin-bnd.html) - The classic maven plugin for creating OSGi metadata.
-* [BND Indexer Maven Plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-indexer-maven-plugin) - Create OSGi R5 indexes from Maven Dependency/pom.
+* [BND Indexer Maven Plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-indexer-maven-plugin) - Create OSGi R5 Repository indexes from Maven Dependency/pom.
 
 ## License
 
