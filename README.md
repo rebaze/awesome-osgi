@@ -17,6 +17,7 @@
 
 * [OSGi Enroute](http://enroute.osgi.org) - Set of APIs and Implementations for getting started with OSGi quickly.
 * [Apache Aries](http://aries.apache.org) - OSGi Enterprise Bundle Implementations (e.g. JPA, JTA etc.)
+* [JAX-RS Connector](https://github.com/hstaudacher/osgi-jax-rs-connector) - An OSGi - JAX-RS 2.0 Connector
 
 ## IDE Support
 * [BNDTools](http://bndtools.org) - Lipstick for bnd in Eclipse (quote: Neil Bartlett)
