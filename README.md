@@ -9,11 +9,15 @@
 *Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.*
 
 ## Framework Implementations
-
-* [Felix](https://felix.apache.org) - OSGi Core 6 compliant Implementation from Apache Community.
-* [Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
+OSGi framwork implementations are the kernel of your OSGi runtime. While you compile against APIs specified by the [OSGi Alliance](http://osgi.org) you always need a concrete framework implementation.
+### Major Open Source implementations
+* [Apache Felix](https://felix.apache.org) - OSGi Core 6 compliant Implementation from Apache Community.
+* [Eclipse Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
 
 ## Useful bundles/bundle providers
+Bundles are regular jars with extra Metadata. You can use OSGi Bundles just like any other jar in non-osgi environments since extra metadata is ignored when not understood.
+
+Getting wrapped up jars is not always 100% transparent. Many Open Source libraries are already wrapped.
 
 * [OSGi Enroute](http://enroute.osgi.org) - Set of APIs and Implementations for getting started with OSGi quickly.
 * [Apache Aries](http://aries.apache.org) - OSGi Enterprise Bundle Implementations (e.g. JPA, JTA etc.)
