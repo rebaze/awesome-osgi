@@ -9,22 +9,34 @@
 *Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.*
 
 ## Framework Implementations
-OSGi framwork implementations are the kernel of your OSGi runtime. While you compile against APIs specified by the [OSGi Alliance](http://osgi.org) you always need a concrete framework implementation.
+OSGi framework implementations are the kernel of your OSGi runtime. While you compile against APIs specified by the [OSGi Alliance](http://osgi.org) you always need a concrete framework implementation.
 ### Major Open Source implementations
 * [Apache Felix](https://felix.apache.org) - OSGi Core 6 compliant Implementation from Apache Community.
 * [Eclipse Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
 
-## Useful bundles/bundle providers
-Bundles are regular jars with extra Metadata. You can use OSGi Bundles just like any other jar in non-osgi environments since extra metadata is ignored when not understood.
+## First class bundles
+Bundles are regular jars with extra Metadata.
+This list contains libraries that provide first level OSGi citizens. So not just wrapped java libraries but implementations of OSGi standards (e.g. from the OSGi Compendium Specification).
 
-Getting wrapped up jars is not always 100% transparent. Many Open Source libraries are already wrapped.
+### Communities & Distributions
+* [OSGi enRoute](http://enroute.osgi.org) - Set of APIs and Implementations for getting started with OSGi quickly.
+* [Apache Felix](http://felix.apache.org) - Felix is not just an OSGi framework implementation (read above) but also host of many super useful OSGi bundles for parts of the OSGi specification such as Logging, Web Servers, Configuration and Shell bundles. Most notably:
+  * [Felix ConfigAdmin](http://felix.apache.org/documentation/subprojects/apache-felix-config-admin.html) - Implementation of the OSGi Compendium Configuration Admin Service.
+  * [Felix SCR](http://felix.apache.org/documentation/subprojects/apache-felix-service-component-runtime.html) - Implementation of the OSGi Declarative Services Specification.
+  * [Felix Gogo Shell](http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html) - Implementation of OSGi RFC 147, the standard shell for OSGi-based environments.
 
-* [OSGi Enroute](http://enroute.osgi.org) - Set of APIs and Implementations for getting started with OSGi quickly.
 * [Apache Aries](http://aries.apache.org) - OSGi Enterprise Bundle Implementations (e.g. JPA, JTA etc.)
+* [OPS4J](https://ops4j1.jira.com/wiki/display/ops4j/Pax) - Pax is the umbrella project for all OSGi bundles and tools at the OPS4J Community.
+
+## Web related bundles
+* [Pax Web](https://github.com/ops4j/org.ops4j.pax.web) - OSGi R4 Http Service and Web Applications (OSGi Enterprise Release chapter 128) implementation using Jetty 9 and Tomcat 7.
 * [JAX-RS Connector](https://github.com/hstaudacher/osgi-jax-rs-connector) - An OSGi - JAX-RS 2.0 Connector
 
+
 ## IDE Support
-* [BNDTools](http://bndtools.org) - Lipstick for bnd in Eclipse (quote: Neil Bartlett)
+Without any doubt, the ultimate tooling is the one that is deeply integrated with your IDE.
+As of now (June 2016) only Eclipse has a production ready IDE integration. And its not PDE (the Eclipse Plugin Development Tooling) but BNDTools.
+* [BNDTools](http://bndtools.org) - Lipstick for BND in Eclipse (quote: Neil Bartlett)
 
 ## Testing
 * [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE integration testing framework.
@@ -36,7 +48,7 @@ Getting wrapped up jars is not always 100% transparent. Many Open Source librari
 * [Neil Bartlett](http://njbartlett.name/) - Neil Bartlett, creator of BNDTools.
 
 ## Build Tools
-* [BND](http://bnd.bndtools.org) - bnd is the engine behind a number of popular software development tools that support OSGi.
+* [BND](http://bnd.bndtools.org) - BND is the engine behind a number of popular software development tools that support OSGi.
 * [Maven Bundle Plugin](http://felix.apache.org/documentation/subprojects/apache-felix-maven-bundle-plugin-bnd.html) - The classic maven plugin for creating OSGi metadata.
 * [BND Indexer Maven Plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-indexer-maven-plugin) - Create OSGi R5 Repository indexes from Maven Dependency/pom.
 
