@@ -23,7 +23,7 @@ This list contains libraries that provide first level OSGi citizens. So not just
 * [Apache Felix](http://felix.apache.org) - Felix is not just an OSGi framework implementation (read above) but also host of many super useful OSGi bundles for parts of the OSGi specification such as Logging, Web Servers, Configuration and Shell bundles. Most notably:
   * [Felix ConfigAdmin](http://felix.apache.org/documentation/subprojects/apache-felix-config-admin.html) - Implementation of the OSGi Compendium Configuration Admin Service.
   * [Felix SCR](http://felix.apache.org/documentation/subprojects/apache-felix-service-component-runtime.html) - Implementation of the OSGi Declarative Services Specification.
-  * [Felix Gogo Shell](http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html) - Implementation of OSGi RFC 147, the standard shell for OSGi-based environments.
+  * [Felix GOGO Shell](http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html) - Implementation of OSGi RFC 147, the standard shell for OSGi-based environments.
 
 * [Apache Aries](http://aries.apache.org) - OSGi Enterprise Bundle Implementations (e.g. JPA, JTA etc.)
 * [OPS4J](https://ops4j1.jira.com/wiki/display/ops4j/Pax) - Pax is the umbrella project for all OSGi bundles and tools at the OPS4J Community.
