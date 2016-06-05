@@ -18,7 +18,7 @@ OSGi framework implementations are the kernel of your OSGi runtime. While you co
 Bundles are regular jars with extra Metadata.
 This list contains libraries that provide first level OSGi citizens. So not just wrapped java libraries but implementations of OSGi standards (e.g. from the OSGi Compendium Specification).
 
-### Communities & Distributions
+### High quality bundle distributors
 * [OSGi enRoute](http://enroute.osgi.org) - Set of APIs and Implementations for getting started with OSGi quickly.
 * [Apache Felix](http://felix.apache.org) - Felix is not just an OSGi framework implementation (read above) but also host of many super useful OSGi bundles for parts of the OSGi specification such as Logging, Web Servers, Configuration and Shell bundles. Most notably:
   * [Felix ConfigAdmin](http://felix.apache.org/documentation/subprojects/apache-felix-config-admin.html) - Implementation of the OSGi Compendium Configuration Admin Service.
@@ -26,12 +26,12 @@ This list contains libraries that provide first level OSGi citizens. So not just
   * [Felix GOGO Shell](http://felix.apache.org/documentation/subprojects/apache-felix-gogo.html) - Implementation of OSGi RFC 147, the standard shell for OSGi-based environments.
 
 * [Apache Aries](http://aries.apache.org) - OSGi Enterprise Bundle Implementations (e.g. JPA, JTA etc.)
+* [Amdatu](http://amdatu.org) - Amdatu is a set of open source components and tools to build modular applications in Java. E.g. Components for multi tenancy, blobstores, MongoDB integration and RESTful web services.
 * [OPS4J](https://ops4j1.jira.com/wiki/display/ops4j/Pax) - Pax is the umbrella project for all OSGi bundles and tools at the OPS4J Community.
 
 ## Web related bundles
 * [Pax Web](https://github.com/ops4j/org.ops4j.pax.web) - OSGi R4 Http Service and Web Applications (OSGi Enterprise Release chapter 128) implementation using Jetty 9 and Tomcat 7.
 * [JAX-RS Connector](https://github.com/hstaudacher/osgi-jax-rs-connector) - An OSGi - JAX-RS 2.0 Connector
-
 
 ## IDE Support
 Without any doubt, the ultimate tooling is the one that is deeply integrated with your IDE.
