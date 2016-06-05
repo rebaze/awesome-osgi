@@ -48,8 +48,11 @@ As of now (June 2016) only Eclipse has a production ready IDE integration. And i
 * [Neil Bartlett](http://njbartlett.name/) - Neil Bartlett, creator of Bndtools.
 
 ## Build Tools
+How do you create OSGi components? How do you work with external, non bundle dependencies?
+There are quite many tools out there that let you work with your tools of choice (Maven, Gradle, any other scriptable environment) to work on OSGi projects.
 * [BND](http://bnd.bndtools.org) - BND is the engine behind a number of popular software development tools that support OSGi.
 * [Maven Bundle Plugin](http://felix.apache.org/documentation/subprojects/apache-felix-maven-bundle-plugin-bnd.html) - The classic maven plugin for creating OSGi metadata.
+* [bnd Maven Plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-maven-plugin) - A new (introduced in 2015) take on bnd library integration as a maven plugin. Neil Bartlett [introducing the new maven plugin](http://njbartlett.name/2015/03/27/announcing-bnd-maven-plugin.html) in his blog.
 * [BND Indexer Maven Plugin](https://github.com/bndtools/bnd/tree/master/maven/bnd-indexer-maven-plugin) - Create OSGi R5 Repository indexes from Maven Dependency/pom.
 
 ## License
