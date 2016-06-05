@@ -35,8 +35,8 @@ This list contains libraries that provide first level OSGi citizens. So not just
 
 ## IDE Support
 Without any doubt, the ultimate tooling is the one that is deeply integrated with your IDE.
-As of now (June 2016) only Eclipse has a production ready IDE integration. And its not PDE (the Eclipse Plugin Development Tooling) but BNDTools.
-* [BNDTools](http://bndtools.org) - Lipstick for BND in Eclipse (quote: Neil Bartlett)
+As of now (June 2016) only Eclipse has a production ready IDE integration. And its not PDE (the Eclipse Plugin Development Tooling) but Bndtools.
+* [Bndtools](http://bndtools.org) - Lipstick for BND in Eclipse (quote: Neil Bartlett)
 
 ## Testing
 * [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE integration testing framework.
@@ -45,7 +45,7 @@ As of now (June 2016) only Eclipse has a production ready IDE integration. And i
 
 ## Blogs
 * [Official OSGi Blog](http://blog.osgi.org/) - Official OSGi Blog. Mostly articles by Peter Kriens.
-* [Neil Bartlett](http://njbartlett.name/) - Neil Bartlett, creator of BNDTools.
+* [Neil Bartlett](http://njbartlett.name/) - Neil Bartlett, creator of Bndtools.
 
 ## Build Tools
 * [BND](http://bnd.bndtools.org) - BND is the engine behind a number of popular software development tools that support OSGi.
