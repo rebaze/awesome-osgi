@@ -43,9 +43,10 @@ As of now (June 2016) only Eclipse has a production ready IDE integration. And i
 
 ## Guides
 
-## Blogs
+## Blogs to follow
 * [Official OSGi Blog](http://blog.osgi.org/) - Official OSGi Blog. Mostly articles by Peter Kriens.
 * [Neil Bartlett](http://njbartlett.name/) - Neil Bartlett, creator of Bndtools.
+* [Know How Lab](http://blog.knowhowlab.org) - Dmytro Pishchukhin writing about OSGi tooling, libraries and AWS.
 
 ## Build Tools
 How do you create OSGi components? How do you work with external, non bundle dependencies?
