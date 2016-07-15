@@ -42,6 +42,8 @@ As of now (June 2016) only Eclipse has a production ready IDE integration. And i
 * [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE integration testing framework.
 
 ## Guides
+* [Where to Find Stuff](http://enroute.osgi.org/book/700-links.html) - The enRoute directory of OSGi related resources.
+* [enRoute Appnotes](http://enroute.osgi.org/book/680-appnotes.html) - A directory of discussions to OSGi related topics. A very worthy read!
 
 ## Blogs to follow
 * [Official OSGi Blog](http://blog.osgi.org/) - Official OSGi Blog. Mostly articles by Peter Kriens.
