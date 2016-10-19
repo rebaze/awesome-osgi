@@ -14,6 +14,23 @@ OSGi framework implementations are the kernel of your OSGi runtime. While you co
 * [Apache Felix](https://felix.apache.org) - OSGi Core 6 compliant Implementation from Apache Community.
 * [Eclipse Equinox](http://www.eclipse.org/equinox/) - OSGi Core 6 Reference Implementation from the Eclipse Community.
 
+## OSGi based Containers
+
+### Apache Karaf
+[Apache Karaf](http://karaf.apache.org) is an opinionated OSGi distributions that comes with read-made solutions for common operation topics such as:
+* Hot deployment
+* Complete Console
+* Dynamic Configuration* Advanced Logging System
+* Provisioning
+* Management
+* Security
+* Cloud deployment
+
+As such, Karaf might be your first choice when selecting OSGi as a runtime and you _do not want_ to create all of the above yourself.
+
+Karaf works on small devices (perfect for IoT) as well as part of a cloud container deployment.  
+
+
 ## First class bundles
 Bundles are regular jars with extra Metadata.
 This list contains libraries that provide first level OSGi citizens. So not just wrapped java libraries but implementations of OSGi standards (e.g. from the OSGi Compendium Specification).
