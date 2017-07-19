@@ -60,6 +60,15 @@ As of now (June 2016) only Eclipse has a production ready IDE integration. And i
 ## Testing
 * [Pax Exam](https://ops4j1.jira.com/wiki/display/PAXEXAM4/Pax+Exam) - IDE independent OSGi and JEE integration testing framework.
 
+## Dependency Injection with DS
+DS stands for Declarative Services. It is the OSGi-way of doing dependency injection as opposed to other, more classic dependency injection frameworks that not OSGi-"native" such as Spring. Even with Blueprint (the remains of Spring-DM after SpringSource - back then - lost interest in OSGi) Spring and OSGi are not a good match at all.
+
+If you seriously consider adopting OSGi consider using Declarative Services over Spring.
+
+* http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/
+* http://enroute.osgi.org/services/org.osgi.service.component.html
+* http://www.aqute.biz/Bnd/Components
+
 ## Guides
 * [Where to Find Stuff](http://enroute.osgi.org/book/700-links.html) - The enRoute directory of OSGi related resources.
 * [enRoute Appnotes](http://enroute.osgi.org/book/680-appnotes.html) - A directory of discussions to OSGi related topics. A very worthy read!
